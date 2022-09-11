@@ -3,6 +3,7 @@ title: "Early Mobility in the ICU"
 date: 2022-06-08T12:14:34+06:00
 # post thumb
 image: "images/post/early-mobility-icu-3.jpeg"
+image-size: "200px"
 # author
 author: "John Doe" # use capitalize
 # taxonomies

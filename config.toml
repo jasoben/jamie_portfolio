@@ -1,6 +1,6 @@
 ######################## default configuration ####################
-baseurl = "http://demo.themefisher.com/timeframe-hugo/"
-title = "Timeframe"
+baseurl = "http://jamiebennett.work"
+title = "jamiebennett.work"
 theme = "timeframe"
 # post pagination
 paginate = "4"
@@ -54,10 +54,10 @@ link = "plugins/masonry/masonry.min.js"
 
 #################### default parameters ################################
 [params]
-logo = "images/logo.png"
+logo = ""
 # Meta data
 description = "This is meta description"
-author = "Themefisher"
+author = "Jamie Bennett"
 # contact info
 address = "1901 Thornridge Cir. Shiloh, Hawaii 81063<br>Hilton Head Island,<br>South Carolina(SC), 29928"
 mobile = "+211234565523"
@@ -65,7 +65,7 @@ email = "info@email.com"
 # contact form action
 contact_form_action = "#" # contact form works with https://formspree.io
 # search
-search = true
+search = false
 
 # layout
 [params.layout]
@@ -144,29 +144,9 @@ bg_image = "images/banner.png"
 ##### English navigation ############
 # main menu
 [[Languages.en.menu.main]]
-name = "Homepage"
-hasChildren = true
+name = "Home"
+hasChildren = false
 weight = 1
-
-  [[Languages.en.menu.main]]
-  parent = "Homepage"
-  name = "Homepage Grid"
-  url = "homepage/grid"
-
-  [[Languages.en.menu.main]]
-  parent = "Homepage"
-  name = "Homepage Grid Banner"
-  url = "homepage/grid-banner"
-
-  [[Languages.en.menu.main]]
-  parent = "Homepage"
-  name = "Homepage List"
-  url = "homepage/list"
-
-  [[Languages.en.menu.main]]
-  parent = "Homepage"
-  name = "Homepage List Banner"
-  url = "homepage/list-banner"
 
 [[Languages.en.menu.main]]
 name = "About"
@@ -210,90 +190,4 @@ url = "contact"
 weight = 5
 
 
-################################### French language #####################################
-[Languages.fr]
-languageName = "Fr"
-languageCode = "fr-fr"
-contentDir = "content/french"
-weight = 2
-# copyright
-copyright = "Designed By [Themefisher](https://themefisher.com/) & Developed By [Gethugothemes](https://gethugothemes.com/)"
 
-# banner
-[Languages.fr.params.banner]
-enable = true
-title = "I’m a Freelance Interactive Art Director based in Cuba. Focus across branding identity and solution In Society"
-bg_image = "images/banner.png"
-
-##### French navigation ############
-# main menu
-[[Languages.fr.menu.main]]
-name = "Homepage"
-hasChildren = true
-weight = 1
-
-  [[Languages.fr.menu.main]]
-  parent = "Homepage"
-  name = "Homepage Grid"
-  url = "homepage/grid"
-
-  [[Languages.fr.menu.main]]
-  parent = "Homepage"
-  name = "Homepage Grid Banner"
-  url = "homepage/grid-banner"
-
-  [[Languages.fr.menu.main]]
-  parent = "Homepage"
-  name = "Homepage List"
-  url = "homepage/list"
-
-  [[Languages.fr.menu.main]]
-  parent = "Homepage"
-  name = "Homepage List Banner"
-  url = "homepage/list-banner"
-
-[[Languages.fr.menu.main]]
-name = "About"
-url = "about"
-weight = 2
-
-[[Languages.fr.menu.main]]
-name = "Portfolio"
-url = "portfolio"
-weight = 3
-
-[[Languages.fr.menu.main]]
-name = "Contact"
-url = "contact"
-weight = 4
-
-[[Languages.fr.menu.main]]
-name = "Privacy Policy"
-url = "privacy-policy"
-weight = 5
-
-# footer menu
-[[Languages.fr.menu.footer]]
-name = "Home"
-url = "/"
-weight = 1
-
-[[Languages.fr.menu.footer]]
-name = "About"
-url = "about"
-weight = 2
-
-[[Languages.fr.menu.footer]]
-name = "Portfolio"
-url = "portfolio"
-weight = 3
-
-[[Languages.fr.menu.footer]]
-name = "Privacy Policy"
-url = "privacy-policy"
-weight = 4
-
-[[Languages.fr.menu.footer]]
-name = "Contact"
-url = "contact"
-weight = 5

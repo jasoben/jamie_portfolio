@@ -32,7 +32,7 @@
       <div class="col-lg-5 col-sm-6">
         <article class="card">
           {{ if .Params.image }}
-          <img src="{{ .Params.image | absURL }}" alt="{{ .Title }}" class="card-img-top">
+          <a href="{{ .Permalink }}" class="card"><img src="{{ .Params.image | absURL }}" alt="{{ .Title }}" class="card-img-top"></a>
           {{ end }}
           <div class="card-body text-center">
             <ul class="card-meta">
