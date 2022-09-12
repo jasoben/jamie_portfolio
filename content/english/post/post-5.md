@@ -28,4 +28,4 @@ Let’s get started. I know this molecule hits the target. Now I’m giving it t
 
 text break here
 
-{{< figure src="/images/post/ok-go-2.jpeg" title="Bob the Image" >}}
+{{< figure src="/images/post/bio-rad-vr.png" title="Bob the Image" >}}
