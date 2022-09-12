@@ -138,7 +138,7 @@ copyright = "Designed By [Themefisher](https://themefisher.com/) & Developed By 
 ################ banner #############
 [Languages.en.params.banner]
 enable = true
-title = "I'm a writer, editor, and strategist who fuses creativity & the technical. Currently working in life sciences. <br>Explore my portfolio."
+title = "I'm a writer, editor, and strategist. Currently working in life sciences, <br>I fuse the creative & the technical. <br>See how in my portfolio below."
 bg_image = "images/banner.png"
 
 ##### English navigation ############
