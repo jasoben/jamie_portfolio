@@ -3,7 +3,7 @@ baseurl = "http://jamiebennett.work"
 title = "jamiebennett.work"
 theme = "timeframe"
 # post pagination
-paginate = "4"
+paginate = "99"
 # post excerpt
 summaryLength = "10"
 # google analytics
@@ -72,7 +72,7 @@ search = false
 # navigation layout
 navbar = "1" # 1 or 2
 # post layout
-post = "1" # 1 or 2
+post = "2" # 1 or 2
 # instagram layout
 instafeed = "1" # 1 or 2
 
