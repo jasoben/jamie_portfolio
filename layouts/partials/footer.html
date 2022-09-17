@@ -2,8 +2,7 @@
   <div class="section-sm">
     <div class="container">
       <div class="text-center">
-        <a class="navbar-brand mb-5" href="{{ site.BaseURL | relLangURL }}"><img class="img-fluid"
-            src="{{ site.Params.logo | absURL }}" alt="{{ site.Title }}"></a>
+        <a class="navbar-brand mb-5" href="{{ site.BaseURL | relLangURL }}">{{ site.Title }}</a>
         <ul class="list-inline mb-5 footer-menu">
           {{ range site.Menus.footer }}
           <li class="list-inline-item"><a href="{{ .URL | absURL }}">{{ .Name }}</a></li>

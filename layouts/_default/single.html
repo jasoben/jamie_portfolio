@@ -5,7 +5,9 @@
     <div class="row justify-content-center">
       {{ if .Params.image }}
       <div class="col-lg-10 mb-5">
-        <img src="{{ .Params.image | absURL }}" alt="{{.Title}}" class="img-fluid w-100">
+        <div style="width:100%; text-align: center;">
+          <img src="{{ .Params.image | absURL }}" alt="{{.Title}}" class="img-fluid w-75">
+        </div>
       </div>
       {{ end }}
       <div class="col-lg-8 col-md-10">
